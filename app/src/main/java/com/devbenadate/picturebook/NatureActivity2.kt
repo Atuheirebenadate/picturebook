@@ -14,13 +14,14 @@ class NatureActivity2 : AppCompatActivity() {
         setContentView(R.layout.activity_nature3)
         btnBack3=findViewById(R.id.btnBack3)
         btnNext3=findViewById(R.id.btnNext3)
+
+        btnBack3.setOnClickListener {
+            val intent=Intent(this,MainActivity::class.java)
+            startActivity(intent)
+        }
         btnNext3.setOnClickListener {
             val intent=Intent(this,NatureActivity2::class.java)
-            startActivity(Intent())
-        }
-        btnBack3.setOnClickListener {
-            val intent=Intent(this,NatureActivity3::class.java)
-            startActivity(Intent())
+            startActivity(intent)
         }
 
     }
