@@ -20,7 +20,7 @@ class NatureActivity3 : AppCompatActivity() {
 
         }
         btnBack2.setOnClickListener {
-            val intent=Intent(this,NatureActivity4::class.java)
+            val intent=Intent(this,NatureActivity3::class.java)
             startActivity(intent)
         }
 

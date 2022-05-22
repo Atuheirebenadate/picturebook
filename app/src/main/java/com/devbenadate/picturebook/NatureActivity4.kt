@@ -14,7 +14,7 @@ class NatureActivity4 : AppCompatActivity() {
         btnBack4=findViewById(R.id.btnBack4)
         btnNext4=findViewById(R.id.btnNext4)
         btnBack4.setOnClickListener {
-            val intent=Intent(this,NatureActivity5::class.java)
+            val intent=Intent(this,NatureActivity4::class.java)
             startActivity(intent)
         }
         btnNext4.setOnClickListener {

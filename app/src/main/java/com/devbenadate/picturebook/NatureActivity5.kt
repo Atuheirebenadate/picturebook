@@ -15,11 +15,11 @@ class NatureActivity5 : AppCompatActivity() {
         btnBackhome=findViewById(R.id.bntBackhome)
 
         btnPreview.setOnClickListener {
-            val intent=Intent(this,NatureActivity4::class.java)
+            val intent=Intent(this,NatureActivity5::class.java)
             startActivity(intent)
         }
         btnBackhome.setOnClickListener {
-            val intent=Intent(this,NatureActivity4::class.java)
+            val intent=Intent(this,MainActivity::class.java)
             startActivity(intent)
         }
     }
